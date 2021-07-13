@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+/* .......................................................................................Google Font.............................*/
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* ..............................................................................Header Section Start.............................*/
+header{
+    background-color: rgb(52, 175, 247);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {}
+
+.menu a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.menu a:hover {
+    color: rgb(14, 204, 230);
+    border-bottom: 2px solid;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding: 0px 40px 0px;
+    margin-top: 10px;
+
+}
+
+.fas.fa-sign-in-alt {
+    color: white;
+}
+
+.login p {
+    margin: 10px;
+    color: white;
+
+}
+
+/* ........................................................................................Banner Section Start.................. */
+.banner {
+    background-color: rgb(52, 175, 247);
+}
+
+.banner-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.banner-left {
+    font-size: 1.7em;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+
+}
+
+button:hover {
+    width: 200px;
+    background: rgb(18, 159, 184);
+    transition: width,
+
+}
+
+.banner-photo img {
+    width: 350px;
+    height: 320px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 75px;
+}
+
+.banner-photo:hover {
+    transform: scale(1.5);
+    transition: transform 1s ease-in;
+}
+
+    /* .......................................................................................Player Section Start............*/
+
+
+    .players{
+       display: grid; 
+       grid-template-columns: repeat(3, 1fr);
+       padding: 50px;
+       grid-gap: 50px;
+       
+    }
+    .player img{
+        width: 300px;
+        height: 250px; 
+    }
+    .player{
+        box-shadow:5px 5px 5px rgb(199, 211, 221);
+    }
+    .player{
+
+    }
