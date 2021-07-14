@@ -18,9 +18,10 @@ main {
 }
 
 /* ..............................................................................Header Section Start.............................*/
-header{
+header {
     background-color: rgb(52, 175, 247);
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -102,40 +103,64 @@ button:hover {
     transition: transform 1s ease-in;
 }
 
-    /* .......................................................................................Player Section Start............*/
+/* .......................................................................................Player Section Start............*/
 
 
-    .players{
-       display: grid; 
-       grid-template-columns: repeat(3, 1fr);
-       padding: 50px;
-       grid-gap: 50px;
-       
-    }
-    .player img{
-        width: 300px;
-        height: 250px; 
-    }
-    .player{
-        box-shadow:5px 5px 5px rgb(199, 211, 221);
-    }
-    .player{
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+    grid-gap: 50px;
 
-    }
-    /* ...................................................................................Video Part......................... */
+}
 
-    .video-list{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 30px;
+.player img {
+    width: 300px;
+    height: 250px;
+}
 
-    }
-    .video{
-       background-color: rgb(255, 0, 0); 
-       box-shadow:8px 7px 8px rgb(199, 211, 221);
-       border-radius: 20px;
-    }
-    .video h3{
-        padding: 10px;
-        color: white;
-    }
+.player {
+    box-shadow: 5px 5px 5px rgb(199, 211, 221);
+}
+
+.player {}
+
+/* ...................................................................................Video Part......................... */
+
+.video-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+
+.video {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 8px 7px 8px rgb(199, 211, 221);
+    border-radius: 20px;
+}
+
+.video h3 {
+    padding: 10px;
+    color: white;
+}
+
+
+.brands {
+    background-color: rgb(235, 240, 241);
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    padding: 50px 0px 50px 50px;
+}
+
+.brands-name {
+    margin-top: 50px;
+}
+
+.photo img {
+    width: 150px;
+    height: 75px;
+}
