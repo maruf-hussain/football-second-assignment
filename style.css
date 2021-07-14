@@ -80,6 +80,8 @@ button {
     color: white;
     background-color: red;
     padding: 10px 20px;
+    border-radius: 5px;
+    border-color: rgb(52, 175, 247);
 
 }
 
@@ -145,6 +147,7 @@ button:hover {
     color: white;
 }
 
+/* .............................................................................................................Brand part........................... */
 
 .brands {
     background-color: rgb(235, 240, 241);
@@ -164,3 +167,71 @@ button:hover {
     width: 150px;
     height: 75px;
 }
+
+/* ........................................................................................................Footer Part............................... */
+
+.footer-part {
+    margin-top: 75px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.footer-photo img {
+    width: 300px;
+    height: 85px;
+}
+
+.footer-icon {
+    margin-left: 100px;
+}
+
+.copyright {
+    margin-left: 75px;
+}
+
+.fab {
+    margin-left: 15px;
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .banner-details,
+    .menu,
+    .brands,
+    .video-list {
+        background-color: rgb(216, 224, 224);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-details {
+        background-color: rgb(52, 175, 247);
+    }
+
+    .menu {
+        background-color: rgb(52, 175, 247);
+        ;
+        padding: 10px;
+
+
+    }
+
+    .menu a {
+        text-align: center;
+        margin: 10px 0px;
+        background-color: rgb(16, 173, 160);
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+
+
+    /* ...................................................................................................................................................                          All Section Completed                           .......................................................................................................................................................*/
