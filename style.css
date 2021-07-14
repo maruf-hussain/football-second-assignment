@@ -156,7 +156,7 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 50px;
-    padding: 50px 0px 50px 50px;
+
 }
 
 .brands-name {
@@ -166,6 +166,7 @@ button:hover {
 .photo img {
     width: 150px;
     height: 75px;
+    padding: 20px;
 }
 
 /* ........................................................................................................Footer Part............................... */
@@ -194,9 +195,9 @@ button:hover {
     margin-left: 15px;
 }
 
+/* ....................media query .............................*/
 
-
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:700px) {
     .container {
         width: 100%;
     }
@@ -204,12 +205,12 @@ button:hover {
     .players,
     .banner-details,
     .menu,
-    .brands,
     .video-list {
         background-color: rgb(216, 224, 224);
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
 
     .banner-details {
@@ -218,10 +219,17 @@ button:hover {
 
     .menu {
         background-color: rgb(52, 175, 247);
-        ;
         padding: 10px;
 
 
+
+    }
+
+    .brands {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        align-items: center;
     }
 
     .menu a {
@@ -230,8 +238,9 @@ button:hover {
         background-color: rgb(16, 173, 160);
         border-radius: 5px;
         padding: 5px;
+
     }
 
 
 
-    /* ...................................................................................................................................................                          All Section Completed                           .......................................................................................................................................................*/
+    /*                                                                          All Section Completed                           .............................................................*/
